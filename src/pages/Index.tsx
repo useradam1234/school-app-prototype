@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import AnimatedCounter from "@/components/AnimatedCounter";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import AnimatedCounter from "../components/AnimatedCounter";
 import { BookOpen, Users, Award } from "lucide-react";
 
 const Index = () => {
@@ -102,6 +102,26 @@ const Index = () => {
             </div>
           </div>
         </section>
+
+        <section className="py-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                Campus Life
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+                Explore our vibrant campus and the activities that enrich our students' lives.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <img src="/Gemini_Generated_Image_1jroe51jroe51jro.png" alt="Campus Life 1" className="rounded-lg object-cover w-full h-full" />
+              <img src="/Gemini_Generated_Image_2mtus12mtus12mtu.png" alt="Campus Life 2" className="rounded-lg object-cover w-full h-full" />
+              <img src="/Gemini_Generated_Image_tq5j3jtq5j3jtq5j.png" alt="Campus Life 3" className="rounded-lg object-cover w-full h-full" />
+              <img src="/Gemini_Generated_Image_dwivpwdwivpwdwiv.png" alt="Campus Life 4" className="rounded-lg object-cover w-full h-full" />
+            </div>
+          </div>
+        </section>
+
         <section className="py-20 bg-primary/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
